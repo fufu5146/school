@@ -24,7 +24,7 @@ public class SchoolController {
 
     private final static String DB_URL = "jdbc:mysql://localhost:3306/wild_db_quest?serverTimezone=GMT";
     private final static String DB_USER = "root";
-    private final static String DB_PASSWORD = "segatower51";
+    private final static String DB_PASSWORD = "password";
 
     @GetMapping("/api/schools")
     public List<Wizard> getWizards(@RequestParam(defaultValue = "%") String country) {
